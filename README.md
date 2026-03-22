@@ -22,7 +22,7 @@ View your app in AI Studio: https://ai.studio/apps/345bca60-25d0-4fdd-ace5-fd03f
 ## GitHub Pages
 
 This project is deployed with GitHub Actions using
-[.github/workflows/deploy.yml](D:\kelvin\VScode\91up\.github\workflows\deploy.yml).
+[.github/workflows/deploy.yml](.github/workflows/deploy.yml).
 
 The custom domain is managed through `public/CNAME` so Vite includes it in the
 build output. The primary domain is `91up.tw`.
