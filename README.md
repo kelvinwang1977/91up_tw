@@ -25,9 +25,8 @@ This project is deployed with GitHub Actions using
 [.github/workflows/deploy.yml](D:\kelvin\VScode\91up\.github\workflows\deploy.yml).
 
 The custom domain is managed through `public/CNAME` so Vite includes it in the
-build output. Keep the domain value only in `public/CNAME` and do not add a
-second `CNAME` file at the repository root.
+build output. The primary domain is `91up.tw`.
 
-The primary domain is `91up.com.tw`. If `www.91up.com.tw` is opened, the app
+If `www.91up.tw` is opened, the app
 redirects back to the apex domain early in `index.html` to avoid stale `www`
 custom-domain or DNS configurations showing a blank page after a repo reset.
